@@ -8,16 +8,20 @@ body {
   font-weight: 800;
 }
 
+
+.para {
+  font-size: 22px;
+}
 .small-para {
   font-size: 14px;
   font-weight: 800;
 }
 
-.para {
-  font-size: 22px;
-}
-
-.confirm {
+    /* <div class="text">I'm a div with thin text!</div>
+    <div class="text">I'm a div with thin text and a child div!
+      <div class="text child">I'm a smaller child div with extra bold text.</div>
+    </div> */
+.confirm.button{
   background: green;
   color: white;
   font-weight: bold;
@@ -29,13 +33,13 @@ body {
   font-size: 20px;
 }
 
+
 .child {
   color: rgb(0, 0, 0);
   font-weight: 800;
   font-size: 14px;
 }
-
-div.text {
+div {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
